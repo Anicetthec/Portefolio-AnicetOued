@@ -340,8 +340,8 @@ function App() {
         <section className="hero section-shell mx-auto" id="accueil" aria-labelledby="hero-title">
           <div className="hero-copy">
             <p className="eyebrow"><span className="status-dot" /> Étudiant en génie informatique · Ouagadougou</p>
-              <h1 id="hero-title">Développeur web<br /><span> & administrateur réseaux.</span></h1>
-              <p className="hero-description">Je conçois des applications web modernes et m’intéresse aux réseaux et aux systèmes. Je cherche à créer des solutions fiables, accessibles et adaptées aux besoins réels.</p>
+              <h1 id="hero-title">Développeur Web<br /><span>& Passionné de Réseaux, Sécurité & IA.</span></h1>
+              <p className="hero-description">Étudiant en Génie Informatique à Ouagadougou, je conçois des applications web tout en développant mes compétences en réseaux, cybersécurité et intelligence artificielle.</p>
             <div className="hero-actions">
               <a className="button button-primary rounded-sm" href="#projets">Voir mes projets <span aria-hidden="true">↓</span></a>
               <a className="button button-secondary rounded-sm" href="#contact">Me contacter <span aria-hidden="true">↗</span></a>
@@ -369,7 +369,7 @@ function App() {
           <div className="intro-content">
             <h2 className="section-title" id="about-title">L’informatique, du code<br />jusqu’aux réseaux.</h2>
             <div className="intro-aside">
-              <p>Je suis <strong>Anicet Ouédraogo</strong>, étudiant en Licence de Génie Informatique à l’Université Aube Nouvelle. Du développement d’applications web à l’administration des réseaux, j’aime comprendre les problèmes et construire des solutions concrètes.</p>
+              <p>Je suis <strong>Anicet Ouédraogo</strong>, étudiant en Licence de Génie Informatique à l’Université Aube Nouvelle. Je m’intéresse au développement web, aux réseaux, aux systèmes et à la cybersécurité, que je continue d’apprendre. J’aime comprendre les problèmes et construire des solutions concrètes.</p>
               <a className="underlined-link" href="#parcours">En savoir plus sur mon parcours <span aria-hidden="true">↗</span></a>
             </div>
           </div>
@@ -415,7 +415,8 @@ function App() {
               <div className="skill-row"><span className="skill-index">02</span><div><h3>Langages & programmation</h3><p>C · Python (lambda, map, filter) · JavaScript</p></div><span className="skill-plus">↗</span></div>
               <div className="skill-row"><span className="skill-index">03</span><div><h3>Bases de données & modélisation</h3><p>Supabase · Microsoft Access · Merise (MCD, MLD, MCT)</p></div><span className="skill-plus">↗</span></div>
               <div className="skill-row"><span className="skill-index">04</span><div><h3>Systèmes & réseaux</h3><p>Debian Linux (dual-boot) · Windows · Cisco Packet Tracer · GNS3 · Wireshark · CCNA en cours</p></div><span className="skill-plus">↗</span></div>
-              <div className="skill-row"><span className="skill-index">05</span><div><h3>Outils, matériel & sécurité</h3><p>Git · VS Code · Vercel · Photopea · Maintenance et dépannage · Fortinet (notions) · Aircrack-ng</p></div><span className="skill-plus">↗</span></div>
+              <div className="skill-row"><span className="skill-index">05</span><div><h3>Cybersécurité — en apprentissage</h3><p>Cisco Networking Academy · Notions de sécurité Fortinet · Sensibilisation aux bonnes pratiques</p></div><span className="skill-plus">↗</span></div>
+              <div className="skill-row"><span className="skill-index">06</span><div><h3>Outils & support matériel</h3><p>Git · VS Code · Vercel · Photopea · Maintenance, assemblage et dépannage de postes</p></div><span className="skill-plus">↗</span></div>
             </div>
           </div>
         </section>
