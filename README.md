@@ -6,6 +6,7 @@ Portfolio personnel développé avec React, Vite et Tailwind CSS. Le site prése
 
 - Interface responsive pour téléphones, tablettes et ordinateurs.
 - Menu de navigation adapté aux petits écrans.
+- Interface disponible en français et en anglais, avec langue mémorisée dans le navigateur.
 - Filtres de projets par catégorie et détails de projet dépliables.
 - Thème clair/sombre mémorisé dans le navigateur.
 - Formulaire de contact Netlify Forms, lien e-mail et accès direct à WhatsApp.
@@ -56,6 +57,10 @@ Les projets et leurs informations sont déclarés dans le tableau `projects` de 
 - `design` — design graphique.
 
 Les illustrations des projets sont des composants React déclarés dans ce même fichier. Pour un nouveau visuel, créer un composant puis l’associer dans `ProjectCard`. Remplacer les liens GitHub généraux par les URL dédiées aux projets dès qu’elles sont disponibles ; ne renseigner une démo qu’une fois publiée.
+
+## Modifier les textes français et anglais
+
+Les libellés communs du site sont regroupés dans l’objet `translations` de `src/App.jsx`, sous les clés `fr` et `en`. Lorsqu’un nouveau libellé d’interface est ajouté, le renseigner dans les deux langues et afficher sa valeur avec `t("cle")`. Les textes propres à un projet sont dans `project.en` pour l’anglais et dans les propriétés principales du projet pour le français. Le bouton `FR`/`EN` dans la navigation change la langue sans recharger le site et mémorise le choix sur cet appareil.
 
 ## Publier le projet sur GitHub
 

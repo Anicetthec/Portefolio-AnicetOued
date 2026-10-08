@@ -39,6 +39,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .navigation > a:not(.nav-contact):hover { color: var(--blue); }
 .nav-contact { display: inline-flex; align-items: center; gap: 9px; padding: 11px 15px; border: 1px solid var(--line); border-radius: 6px; color: var(--text); }
 .nav-contact:hover { border-color: var(--blue); color: var(--blue); }
+.language-toggle { width: 38px; height: 36px; display: inline-grid; place-items: center; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); color: var(--blue); cursor: pointer; font-size: 10px; font-weight: 700; letter-spacing: .04em; }
+.language-toggle:hover { border-color: var(--blue); background: var(--surface-alt); }
 .theme-toggle { width: 36px; height: 36px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); cursor: pointer; }
 .theme-toggle-label { display: none; }
 .theme-toggle:hover { border-color: var(--blue); color: var(--blue); }
@@ -299,6 +301,7 @@ body.dark-theme .empty-projects-mark { background: #202f47; }
   .navigation > a:not(.nav-contact) { padding: 14px 0; border-bottom: 1px solid var(--line); }
   .theme-toggle { width: 100%; height: 46px; display: flex; align-items: center; gap: 9px; border: 0; border-bottom: 1px solid var(--line); background: transparent; text-align: left; }
   .theme-toggle-label { display: inline; }
+  .language-toggle { width: 100%; height: 46px; display: flex; justify-content: flex-start; padding-inline: 10px; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; text-align: left; }
   .nav-contact { justify-content: center; margin-top: 13px; }
   .hero { grid-template-columns: 1fr; gap: 26px; padding-top: 60px; padding-bottom: 64px; }
   .hero h1 { font-size: clamp(43px, 11vw, 64px); }
