@@ -307,9 +307,10 @@ function App() {
 
   async function handleContactSubmit(event) {
     event.preventDefault();
+    const form = event.currentTarget;
     setContactStatus("sending");
 
-    const formData = new FormData(event.currentTarget);
+    const formData = new FormData(form);
     formData.set("form-name", "contact");
 
     try {
@@ -323,7 +324,7 @@ function App() {
         throw new Error(`La soumission du formulaire a échoué (${response.status}).`);
       }
 
-      event.currentTarget.reset();
+      form.reset();
       setContactStatus("success");
     } catch (error) {
       console.error("Impossible d’envoyer le formulaire de contact.", error);
@@ -485,7 +486,7 @@ function App() {
                 </button>
                 <p className={`form-status ${contactStatus}`} role={contactStatus === "error" ? "alert" : "status"} aria-live="polite">
                   {contactStatus === "success" && "Merci ! Votre message a bien été envoyé."}
-                  {contactStatus === "error" && "L’envoi a échoué. Réessayez ou contactez-moi directement par e-mail."}
+                  {contactStatus === "error" && "L’envoi n’a pas abouti. Vérifiez la connexion et l’activation de Forms → Form detection sur Netlify, puis réessayez ou contactez-moi par e-mail."}
                 </p>
               </form>
             </div>

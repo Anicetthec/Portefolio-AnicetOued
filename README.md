@@ -112,7 +112,7 @@ Le formulaire s’appelle `contact`. Il envoie à Netlify le nom, l’adresse e-
 4. Ouvrir le site public, soumettre un message de test, puis vérifier qu’il apparaît dans **Forms → contact**.
 5. Pour recevoir aussi un avis dans votre boîte e-mail, ouvrir les paramètres ou les notifications du formulaire dans Netlify et ajouter une **notification par e-mail**. L’enregistrement des soumissions et les notifications e-mail sont deux réglages distincts.
 
-Le formulaire Netlify ne reçoit pas de soumissions depuis le serveur de développement local : faites le test final sur l’adresse publiée par Netlify. Si aucun formulaire n’apparaît, vérifier que `dist/index.html` contient le formulaire caché `name="contact"` et que Netlify a analysé le dernier déploiement.
+Le formulaire Netlify ne reçoit pas de soumissions depuis le serveur de développement local : faites le test final sur l’adresse publiée par Netlify. Si aucun formulaire n’apparaît, vérifier que la détection automatique est activée dans **Forms → Form detection**, que le dernier déploiement a réussi et que `dist/index.html` contient le formulaire caché `name="contact"`. Après avoir activé la détection, déclencher un nouveau déploiement pour que Netlify analyse le formulaire.
 
 ### 3. Adresse du site et domaine personnel (facultatif)
 
