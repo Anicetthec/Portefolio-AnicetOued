@@ -65,7 +65,7 @@ Les illustrations des projets sont des composants React déclarés dans ce même
    ```bash
    git init
    git add .
-   git commit -m "Premier portfolio"
+   git commit -m " Portfolio Anicet"
    git branch -M main
    ```
 
