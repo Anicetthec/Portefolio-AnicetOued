@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" fill="none">
+  <rect width="600" height="760" fill="#DCE4EF"/>
+  <circle cx="300" cy="277" r="116" fill="#AAB8CB"/>
+  <path d="M88 760c14-169 91-253 212-253s198 84 212 253H88Z" fill="#AAB8CB"/>
+  <path d="M0 0h600v760H0z" stroke="#C4CFDD" stroke-width="2"/>
+  <path d="M190 272c0-66 48-116 110-116s110 50 110 116" stroke="#DCE4EF" stroke-width="3" stroke-dasharray="6 10"/>
+  <text x="300" y="625" fill="#475569" font-family="Arial,sans-serif" font-size="19" letter-spacing="4" text-anchor="middle">VOTRE PHOTO ICI</text>
+  <text x="300" y="655" fill="#64748B" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" text-anchor="middle">REMPLACER CE FICHIER SVG</text>
+</svg>
