@@ -177,8 +177,8 @@ const translations = {
     networkingAcademy: "Cisco Networking Academy · CCNA",
     networkingStudies: "Notions fondamentales des réseaux · Cybersécurité",
     certifications: "Certifications gratuites",
-    credlyBadgeOne: "Voir le badge Credly 1",
-    credlyBadgeTwo: "Voir le badge Credly 2",
+    credlyBadgeOne: "Introduction à la cybersécurité",
+    credlyBadgeTwo: "Notions fondamentales des réseaux",
     ongoing: "EN CONTINU",
     selfLearning: "Curiosité & autoformation",
     extraLearning: "Sensibilisation à l’IA · Bases de la sécurité Fortinet",
@@ -309,8 +309,8 @@ const translations = {
     networkingAcademy: "Cisco Networking Academy · CCNA",
     networkingStudies: "Networking fundamentals · Cybersecurity",
     certifications: "Free certifications",
-    credlyBadgeOne: "View Credly badge 1",
-    credlyBadgeTwo: "View Credly badge 2",
+    credlyBadgeOne: "Introduction to Cybersecurity",
+    credlyBadgeTwo: "Networking Basics",
     ongoing: "ONGOING",
     selfLearning: "Curiosity & self-learning",
     extraLearning: "AI awareness · Fortinet security fundamentals",
@@ -788,8 +788,14 @@ function App() {
                 <article className="timeline-item"><span className="timeline-date">{t("ongoing")}</span><div><h3>{t("selfLearning")}</h3><p>{t("extraLearning")}</p></div><span className="timeline-marker" /></article>
                 <div className="credential-links">
                   <h3>{t("certifications")}</h3>
-                  <a href="https://www.credly.com/badges/bd7c1edc-b6ab-4c90-b7e5-6077c5b05eaa/public_url" target="_blank" rel="noopener noreferrer">{t("credlyBadgeOne")} <span aria-hidden="true">↗</span></a>
-                  <a href="https://www.credly.com/badges/c8508620-4964-4218-a87b-3df608d94841/public_url" target="_blank" rel="noopener noreferrer">{t("credlyBadgeTwo")} <span aria-hidden="true">↗</span></a>
+                  <a className="credential-badge" href="https://www.credly.com/badges/bd7c1edc-b6ab-4c90-b7e5-6077c5b05eaa/public_url" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/introduction-to-cybersecurity.png" alt="Cisco Networking Academy Verified: Introduction to Cybersecurity" />
+                    <span>{t("credlyBadgeOne")} ↗</span>
+                  </a>
+                  <a className="credential-badge" href="https://www.credly.com/badges/c8508620-4964-4218-a87b-3df608d94841/public_url" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/networking-basics.png" alt="Cisco Networking Academy Verified: Networking Basics" />
+                    <span>{t("credlyBadgeTwo")} ↗</span>
+                  </a>
                 </div>
               </div>
             </div>
