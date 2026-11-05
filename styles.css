@@ -369,3 +369,9 @@ body.dark-theme .empty-projects-mark { background: #202f47; }
 .doro-art .art-topline { color: #574847; z-index: 1; }
 .doro-art .art-caption { color: #574847; z-index: 1; }
 .techgrah-artwork { height: 100%; max-height: 205px; width: auto; max-width: 42%; object-fit: contain; box-shadow: 0 8px 22px #211b1b30; }
+.bingii-art { background: #eaf0ec; }
+.bingii-dashboard { width: 94%; height: 79%; object-fit: cover; object-position: center top; border-radius: 6px; box-shadow: 0 8px 22px #1c392530; }
+.bingii-art .art-caption { z-index: 1; color: #315848; }
+.numero-art { background: #fff8ef; }
+.numero-dashboard { width: 94%; height: 79%; object-fit: cover; object-position: center top; border-radius: 6px; box-shadow: 0 8px 22px #352c2025; }
+.numero-art .art-caption { z-index: 1; color: #a54d13; }

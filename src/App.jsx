@@ -27,7 +27,7 @@ const projects = [
       tags: ["Télécom", "PWA", "Burkina Faso"],
     },
     tags: ["Télécom", "Hors-ligne", "Burkina Faso"],
-    art: "telecom",
+    art: "numero",
   },
   {
     id: "bingii",
@@ -54,7 +54,7 @@ const projects = [
       tags: ["Gestion", "Ventes", "Stock", "Hors-ligne"],
     },
     tags: ["Gestion", "Ventes", "Stock", "Hors-ligne"],
-    art: "sombo",
+    art: "bingii",
   },
   {
     id: "faso-grid",
@@ -523,10 +523,30 @@ function DoroArt({ t }) {
   );
 }
 
+function BingiiArt() {
+  return (
+    <div className="project-art bingii-art">
+      <img className="bingii-dashboard" src="/assets/bingii-dashboard.png" alt="Capture du tableau de bord Bingii de gestion d’entreprise" />
+      <span className="art-caption">BINGII · GESTION D’ENTREPRISE</span>
+    </div>
+  );
+}
+
+function NumeroArt() {
+  return (
+    <div className="project-art numero-art">
+      <img className="numero-dashboard" src="/assets/numero-burkina.png" alt="Capture de l’accueil de l’application Numéro Burkina" />
+      <span className="art-caption">NUMÉRO BURKINA · ASSISTANT TÉLÉCOM</span>
+    </div>
+  );
+}
+
 function ProjectCard({ project, language, t }) {
   const [detailsOpen, setDetailsOpen] = useState(false);
   const artComponents = {
     sombo: <SomboArt t={t} />,
+    bingii: <BingiiArt />,
+    numero: <NumeroArt />,
     telecom: <TelecomArt t={t} />,
     grid: <GridArt t={t} />,
     micro: <MicroWorkArt t={t} />,
