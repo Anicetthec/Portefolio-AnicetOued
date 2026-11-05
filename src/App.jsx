@@ -5,56 +5,56 @@ const linkedinUrl = "https://www.linkedin.com/in/anicet-ouedraogo-920182366/";
 
 const projects = [
   {
-    id: "sombo",
-    category: "web",
-    eyebrow: "APPLICATION PWA · GESTION",
+    id: "numero-burkina",
+    category: "tools",
+    eyebrow: "APPLICATION WEB · TÉLÉCOM",
     period: "2026",
-    title: "Sõmbo — Stock & point de vente",
-    summary: "Une application de gestion commerciale qui reste opérationnelle, même sans connexion Internet.",
+    title: "Numéro Burkina",
+    summary: "Un assistant télécom pour identifier les réseaux mobiles, consulter les codes USSD et les services utiles au Burkina Faso.",
+    liveUrl: "https://numero-kappa.vercel.app/",
     details: [
-      "Conception d’une application PWA de gestion commerciale pensée pour fonctionner avec ou sans connexion.",
-      "Architecture offline-first avec IndexedDB pour les données locales et Supabase pour leur synchronisation.",
-      "Interface développée avec React, Vite et Tailwind CSS.",
+      "Application conçue pour retrouver les codes USSD, identifier un opérateur et comparer les offres mobiles locales.",
+      "Pensée pour rester utile hors connexion, avec des outils adaptés au contexte burkinabè.",
     ],
     en: {
-      eyebrow: "PWA · INVENTORY MANAGEMENT",
-      title: "Sõmbo — Inventory & point of sale",
-      summary: "A business management app that keeps working, even without an internet connection.",
+      eyebrow: "WEB APP · TELECOM",
+      title: "Numéro Burkina",
+      summary: "A telecom assistant for identifying mobile networks and finding USSD codes and useful services in Burkina Faso.",
       details: [
-        "A commercial management PWA designed to work online and offline.",
-        "Offline-first architecture using IndexedDB for local data and Supabase for synchronization.",
-        "Interface built with React, Vite, and Tailwind CSS.",
+        "An app for finding USSD codes, identifying an operator, and comparing local mobile offers.",
+        "Designed to remain useful offline, with tools tailored to Burkina Faso.",
       ],
-      tags: ["React", "Vite", "IndexedDB", "Supabase"],
+      tags: ["Télécom", "PWA", "Burkina Faso"],
     },
-    tags: ["React", "Vite", "IndexedDB", "Supabase"],
-    art: "sombo",
+    tags: ["Télécom", "Hors-ligne", "Burkina Faso"],
+    art: "telecom",
   },
   {
-    id: "telecom",
-    category: "tools",
-    eyebrow: "OUTIL WEB · TÉLÉCOM",
+    id: "bingii",
+    category: "web",
+    eyebrow: "APPLICATION WEB · GESTION",
     period: "2026",
-    title: "Identification des opérateurs",
-    summary: "Un outil web pour reconnaître et vérifier les numéros des opérateurs mobiles au Burkina Faso.",
+    title: "Bingii — Gestion d’entreprise",
+    summary: "Une application de gestion pour suivre les ventes, le stock, les dépenses et les activités d’une boutique.",
+    liveUrl: "https://www.bingii.com/",
     details: [
-      "Outil de reconnaissance des numéros mobiles des opérateurs du Burkina Faso.",
-      "La maquette de démonstration affiche un exemple identifié comme ONATEL.",
-      "Interface React connectée à une base de données Supabase.",
+      "Tableau de bord pour enregistrer les ventes et suivre les articles en boutique.",
+      "Gestion des dépenses, des fournisseurs, des crédits clients et de la caisse.",
+      "L’application propose un usage hors ligne avec synchronisation des données.",
     ],
     en: {
-      eyebrow: "WEB TOOL · TELECOM",
-      title: "Mobile operator identification",
-      summary: "A web tool for identifying and checking mobile operator numbers in Burkina Faso.",
+      eyebrow: "WEB APP · BUSINESS MANAGEMENT",
+      title: "Bingii — Business management",
+      summary: "A business app for tracking sales, inventory, expenses, and a shop’s daily activity.",
       details: [
-        "A tool for recognizing mobile numbers from operators in Burkina Faso.",
-        "The demo mockup displays an example identified as ONATEL.",
-        "React interface connected to a Supabase database.",
+        "A dashboard for recording sales and tracking shop inventory.",
+        "Manage expenses, suppliers, customer credit, and cash flow.",
+        "The app supports offline use with data synchronization.",
       ],
-      tags: ["React", "Supabase", "Responsive"],
+      tags: ["Gestion", "Ventes", "Stock", "Hors-ligne"],
     },
-    tags: ["React", "Supabase", "Responsive"],
-    art: "telecom",
+    tags: ["Gestion", "Ventes", "Stock", "Hors-ligne"],
+    art: "sombo",
   },
   {
     id: "faso-grid",
@@ -80,50 +80,29 @@ const projects = [
     art: "grid",
   },
   {
-    id: "micro-travaux",
-    category: "web",
-    eyebrow: "APPLICATION WEB · PLATEFORME",
-    period: "JUIL. 2026",
-    title: "Application de micro-travaux",
-    summary: "Une application utilitaire multiplateforme pour mettre en relation des travailleurs locaux.",
-    details: [
-      "Architecture et développement d’une application destinée à connecter des travailleurs locaux.",
-      "Application construite avec React et Supabase, avec Vercel pour le déploiement.",
-    ],
-    en: {
-      eyebrow: "WEB APPLICATION · PLATFORM",
-      title: "Micro-jobs platform",
-      summary: "A cross-platform utility app connecting local workers with short-term jobs.",
-      details: [
-        "Architecture and development of an application designed to connect local workers.",
-        "Built with React and Supabase, with Vercel for deployment.",
-      ],
-      tags: ["React", "Supabase", "Vercel", "Cross-platform"],
-    },
-    tags: ["React", "Supabase", "Vercel", "Multiplateforme"],
-    art: "micro",
-  },
-  {
-    id: "doro-vintage",
+    id: "techgrah",
     category: "design",
-    eyebrow: "DESIGN GRAPHIQUE · COMMUNICATION",
-    period: "JUIN 2026",
-    title: "Doro Vintage Store",
-    summary: "Création de supports marketing et de flyers publicitaires au format A4.",
+    eyebrow: "DESIGN GRAPHIQUE · IDENTITÉ VISUELLE",
+    period: "2026",
+    title: "Techgrah",
+    summary: "Identité visuelle et supports de communication pour un studio de design graphique.",
     details: [
-      "Réalisation de supports marketing et de flyers publicitaires pour Doro Vintage Store.",
-      "Mise en page au format A4 avec Photopea, gestion des calques et respect des contraintes de design.",
+      "Création de logos et de chartes graphiques.",
+      "Conception d’affiches, flyers, cartes de visite et visuels pour les réseaux sociaux.",
+      "Direction artistique autour de la signature « la qualité à tous prix ».",
     ],
     en: {
-      eyebrow: "GRAPHIC DESIGN · COMMUNICATION",
-      summary: "Marketing materials and promotional A4 flyers for Doro Vintage Store.",
+      eyebrow: "GRAPHIC DESIGN · VISUAL IDENTITY",
+      title: "Techgrah",
+      summary: "Visual identity and communication materials for a graphic design studio.",
       details: [
-        "Created marketing materials and promotional flyers for Doro Vintage Store.",
-        "A4 layouts designed in Photopea, with layer management and attention to design requirements.",
+        "Logo and brand identity design.",
+        "Posters, flyers, business cards, and social media visuals.",
+        "Art direction built around the line “quality at all prices”.",
       ],
-      tags: ["Photopea", "A4 flyer", "Graphic composition"],
+      tags: ["Identité visuelle", "Flyer", "UI/UX", "Réseaux sociaux"],
     },
-    tags: ["Photopea", "Flyer A4", "Composition graphique"],
+    tags: ["Identité visuelle", "Flyer", "UI/UX", "Réseaux sociaux"],
     art: "doro",
   },
 ];
@@ -230,6 +209,7 @@ const translations = {
     backToTop: "Retour en haut",
     copyright: "© {year} Anicet Ouédraogo",
     projectRepo: "Voir mes dépôts GitHub",
+    projectLive: "Visiter le site",
     demoSoon: "Démo en ligne à venir",
     projectGithubLabel: "Voir le profil GitHub d’Anicet pour le projet {title}",
     hideDetails: "Masquer les détails",
@@ -262,7 +242,7 @@ const translations = {
     posterTimeless: "INTEMPOREL",
     posterFind: "TROUVEZ",
     posterPiece: "VOTRE PIÈCE",
-    posterMarketing: "SUPPORT MARKETING / JUIN 2026",
+    posterMarketing: "IDENTITÉ VISUELLE / DESIGN GRAPHIQUE",
     graphicA4: "A4 GRAPHIC",
   },
   en: {
@@ -358,6 +338,7 @@ const translations = {
     backToTop: "Back to top",
     copyright: "© {year} Anicet Ouedraogo",
     projectRepo: "View my GitHub repositories",
+    projectLive: "Visit website",
     demoSoon: "Live demo coming soon",
     projectGithubLabel: "View Anicet’s GitHub profile for the {title} project",
     hideDetails: "Hide project details",
@@ -390,7 +371,7 @@ const translations = {
     posterTimeless: "TIMELESS",
     posterFind: "FIND",
     posterPiece: "YOUR PIECE",
-    posterMarketing: "MARKETING MATERIAL / JUNE 2026",
+    posterMarketing: "VISUAL IDENTITY / GRAPHIC DESIGN",
     graphicA4: "A4 GRAPHIC",
   },
 };
@@ -535,13 +516,8 @@ function MicroWorkArt({ t }) {
 function DoroArt({ t }) {
   return (
     <div className="project-art doro-art">
-      <div className="art-topline"><span>DORO VINTAGE STORE</span><span>{t("graphicA4")}</span></div>
-      <div className="doro-poster">
-        <span className="poster-small">{t("vintageSelection")}</span>
-        <span className="poster-title">{t("posterStyle")}<br />{t("posterTimeless")}</span>
-        <span className="poster-line" />
-        <span className="poster-callout">{t("posterFind")}<br />{t("posterPiece")}</span>
-      </div>
+      <div className="art-topline"><span>TECHGRAH</span><span>{t("graphicA4")}</span></div>
+      <img className="techgrah-artwork" src="/assets/techgrah.jpg" alt="Affiche Techgrah présentant ses services de design graphique et identité visuelle" />
       <span className="art-caption">{t("posterMarketing")}</span>
     </div>
   );
@@ -568,12 +544,11 @@ function ProjectCard({ project, language, t }) {
           <h3>{content.title}</h3>
           <p className="project-summary">{content.summary}</p>
         </div>
-        <a className="project-arrow" href={githubUrl} target="_blank" rel="noopener noreferrer" aria-label={t("projectGithubLabel").replace("{title}", content.title)}>↗</a>
+        <a className="project-arrow" href={project.liveUrl || githubUrl} target="_blank" rel="noopener noreferrer" aria-label={project.liveUrl ? `${t("projectLive")}: ${content.title}` : t("projectGithubLabel").replace("{title}", content.title)}>↗</a>
       </div>
       <div className="tag-list">{content.tags.map((tag) => <SkillBadge key={tag}>{tag}</SkillBadge>)}</div>
       <div className="project-links">
-        <a href={githubUrl} target="_blank" rel="noopener noreferrer">{t("projectRepo")} ↗</a>
-        <span>{t("demoSoon")}</span>
+        {project.liveUrl ? <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">{t("projectLive")} ↗</a> : <><a href={githubUrl} target="_blank" rel="noopener noreferrer">{t("projectRepo")} ↗</a><span>{t("demoSoon")}</span></>}
       </div>
       <button className="project-details-toggle" type="button" aria-expanded={detailsOpen} aria-controls={detailsId} onClick={() => setDetailsOpen((open) => !open)}>
         {detailsOpen ? t("hideDetails") : t("showDetails")}<span aria-hidden="true">{detailsOpen ? "−" : "+"}</span>
